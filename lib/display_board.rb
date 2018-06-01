@@ -2,5 +2,5 @@
 def display_board
   vert = ([" "*3]*3).join("|")
   hor = "\n" + "-"*11 + "\n"
-  ([vert]*3).join(hor)
+  puts ([vert]*3).join(hor)
 end
